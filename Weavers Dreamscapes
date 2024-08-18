@@ -1,0 +1,135 @@
+/* General Page Styling */
+body {
+    background-color: #0e0b16; /* Dark, mystical background */
+    color: #f7e9d8; /* Light, parchment-colored text for readability */
+    font-family: 'Garamond', serif; /* Classic, fantasy-styled font */
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://path/to/your/dreamy-background.jpg'); /* Optional background image for added atmosphere */
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* Headers */
+h1, h2, h3, h4, h5, h6 {
+    color: #ecc19c; /* Soft gold for headers */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Dreamlike shadow */
+    font-family: 'Cinzel Decorative', serif; /* Ornate, fantasy font for headers */
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ecc19c; /* Subtle underline */
+}
+
+h2 {
+    font-size: 2.5em;
+    margin-bottom: 15px;
+}
+
+h3 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+/* Paragraphs */
+p {
+    margin: 15px 0;
+    text-indent: 50px; /* Indent for a more traditional, book-like feel */
+}
+
+/* Links */
+a {
+    color: #e05c78; /* Enchanted pink/purple link color */
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #ff80a0; /* Brighter on hover */
+    text-decoration: none;
+}
+
+/* Blockquotes */
+blockquote {
+    margin: 20px 40px;
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0.1); /* Translucent background */
+    border-left: 5px solid #ecc19c; /* Gold border */
+    font-style: italic;
+    font-size: 1.2em;
+}
+
+/* Lists */
+ul, ol {
+    margin: 15px 40px;
+    padding-left: 20px;
+    list-style-position: inside;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: rgba(255, 255, 255, 0.1); /* Subtle translucent background */
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ecc19c; /* Gold border for tables */
+}
+
+/* Custom Elements - Memory Threads and Dreamscapes */
+.memory-thread {
+    font-style: italic;
+    color: #c49b9b; /* Soft, dreamlike pink */
+    border-bottom: 1px dashed #c49b9b;
+    cursor: pointer;
+}
+
+.dreamscape {
+    font-family: 'Cinzel Decorative', serif;
+    color: #80b3ff; /* Calm, dreamy blue */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9em;
+    color: #f7e9d8;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* Additional Styles for Enhanced Immersion */
+hr {
+    border: 0;
+    border-top: 2px solid #ecc19c; /* Gold line to separate sections */
+    margin: 20px 0;
+}
+
+.page-title {
+    font-family: 'Cinzel Decorative', serif;
+    font-size: 4em;
+    color: #ecc19c;
+    text-align: center;
+    margin: 50px 0;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7);
+}
+
+.subtle-glow {
+    color: #f7e9d8;
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.5); /* Soft glowing effect */
+}
